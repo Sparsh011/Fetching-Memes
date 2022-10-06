@@ -1,4 +1,4 @@
-package com.example.fetchingmemes
+package com.example.fetchingmemes.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,9 +8,11 @@ import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.fetchingmemes.views.adapter.MemeAdapter
+import com.example.fetchingmemes.R
+import com.example.fetchingmemes.model.network.RetrofitInstance
 import java.io.IOException
 
 class MainActivity : AppCompatActivity() {

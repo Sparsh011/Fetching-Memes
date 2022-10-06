@@ -1,5 +1,6 @@
-package com.example.fetchingmemes
+package com.example.fetchingmemes.model.network
 
+import com.example.fetchingmemes.model.entities.NewMemeModel
 import retrofit2.Response
 import retrofit2.http.GET
 

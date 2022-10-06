@@ -1,4 +1,4 @@
-package com.example.fetchingmemes
+package com.example.fetchingmemes.views.adapter
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import androidx.core.content.contentValuesOf
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -16,6 +15,7 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
+import com.example.fetchingmemes.R
 
 class MemeAdapter(
     private val context: Context

@@ -1,4 +1,4 @@
-package com.example.fetchingmemes
+package com.example.fetchingmemes.model.entities
 
 object NewMemeModel{
     data class Memes(
