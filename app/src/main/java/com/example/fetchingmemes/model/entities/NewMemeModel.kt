@@ -1,11 +1,6 @@
 package com.example.fetchingmemes.model.entities
 
 object NewMemeModel{
-    data class Memes(
-        val count: Int,
-        val memesList: List<MemeClass>
-    )
-
     data class MemeClass(
         val author: String,
         val nsfw: Boolean,
